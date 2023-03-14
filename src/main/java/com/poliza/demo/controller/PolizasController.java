@@ -30,7 +30,7 @@ public class PolizasController {
                     System.out.println(item);
                     JSONObject jItem = new JSONObject();
                     jItem.put("IdPolizas",item.getIdPolizas());
-                    jItem.put("getEmpleadoGenero",item.getEmpleadoGenero());
+                    jItem.put("EmpleadoGenero",item.getEmpleadoGenero());
                     jItem.put("SKU",item.getSKU());
                     jItem.put("Cantidad",item.getCantidad());
                     jItem.put("Fecha",item.getFecha());
